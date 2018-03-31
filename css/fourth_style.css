@@ -1,10 +1,11 @@
 p {
-	font: normal normal normal 18px/1.4em cinzel,serif;
+	font: normal normal normal 15px/1.3em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
 	font-size: 15px/1.3em;
     font-family: sans-serif;
     text-align: justify;
 	color: #000000;
 	margin: 10px;
+	font-weight: normal;
 }
 
 body {
@@ -12,6 +13,8 @@ body {
 	border: 0px;
 	padding: 0px;
 	margin: 2px;
+	font-weight: normal;
+	font-family: sans-serif;
 }
 
 .main_header {
@@ -21,11 +24,19 @@ body {
     font-family: cinzel, serif;
 	text-align: center;
 	color: #FFFFFF;
+	font-weight: normal;
+}
+
+.sub_header {
+	font-weight: bold;
+	text-align: justify;
+	line-height: normal;
+	font: sans-serif;
 }
 
 .content_header {
 	text-transform: capitalize;
-	font: normal normal normal 18px/1.4em cinzel,serif;
+	font: normal normal normal 18px/1.4em cinzel, serif;
 	font-family: cinzel serif;
 	font-size: 18px;
 	color: #FFFFFF;
@@ -37,7 +48,7 @@ body {
 	background-color: #3B0C05;
 }
 .content_wrapper {
-	margin: 8px;
+	margin: 2px;
 	border: 2px solid #3B0C05;
 	background-color: #3B0C05;
 }
