@@ -51,6 +51,11 @@ body {
     color: white;
 }
 
+.main-link,
+.main-link:hover {
+    color: white;
+}
+
 .right-footer {
     font-family: 'Cinzel', serif;
     text-align: justify;
