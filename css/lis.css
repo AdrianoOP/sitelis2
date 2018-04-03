@@ -1,44 +1,63 @@
-.dropbtn {
-    background-color: #4CAF50;
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+body {
+    background-color: rgb(26, 6, 3);
+}
+
+
+/* special for main-page */
+
+.main-body {
+    width: 100%;
+}
+
+.lower-border {
+    border-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 0.75pt;
+}
+
+.main-container {
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+}
+
+.main-row1 {
+    margin-bottom: 1em;
+}
+
+.main-ensino {
+    background-color: rgba(59, 12, 5, 1);
+    text-align: right;
+}
+
+.main-pesquisa {
+    background-color: rgba(59, 12, 5, 0.65);
+    text-align: right;
+}
+
+.main-extensao {
+    background-color: rgba(59, 12, 5, 0.30);
+    text-align: right;
+}
+
+.main-ensino,
+.main-pesquisa,
+.main-extensao {
+    font-size: 1.75em;
+    font-family: 'Cinzel', serif;
     color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
+.right-footer {
+    font-family: 'Cinzel', serif;
+    text-align: justify;
+    color: white;
+    font-size: 0.75em;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+.right-footer>p {
+    margin-bottom: 0;
 }

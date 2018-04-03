@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Site LIS">
-    <meta name="author" content="Heverton de Lemos">
 
     <title>LIS</title>
 
@@ -16,6 +15,7 @@
 
     <!-- Custom CSS -->
     <link href="css/lis.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -26,78 +26,82 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <!-- -->
 </head>
 
-<body>
+<body class="main-body">
 
-  <!-- Navigation -->
-  <nav class="navbar menu" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed"
-          data-toggle="collapse" data-target="#nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-      </div>
-
-      <div class="collapse navbar-collapse" id="nav-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="index.html">Início</a>
-          </li>
-          <li>
-            <a href="quem_somos.html">Quem Somos</a>
-          </li>
-          <li>
-            <a class="btn dropdown-toggle dropbtn"
-            href="#" role="button" id="dropdownSecretaria" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-                Secretaria
-            </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownSecretaria">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+    <!-- Navigation -->
+    <nav class="navbar menu-nav main-menu" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-7">
-        <h1>Impressões sobre os nacionalismos
-no Brasil do século XX</h1>
-        <h2>O repertório musical das emissoras de
-          rádio nas décadas de 20 a 30</h2>
-      </div>
-      <div class="col-md-4">
-        <span class="inline-block-helper-2"></span>
-        <img src="img/bts_juntos.png"></img>
-      </div>
-    </div>
-  </div>
-  <!-- /.container -->
+            <div class="collapse navbar-collapse" id="nav-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li>
+                        <a href="quem_somos.html">Quem Somos</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" id="dropdownSecretaria" data-toggle="dropdown">
+                            Secretaria
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="geral.html">Geral</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="documentos.html">Documentos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="acervo.html">Acervo</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
 
-  <!-- Footer -->
-  <footer>
-    <p>Coordenação: Profa. Dra.Márcia Ramos de Oliveira (UDESC)</p>
-    <div class="container-fluid">
-      <div class="col-md-4">
-        <img class="img-responsive" src="img/cnpq.png"/>
-      </div>
-      <div class="col-md-4">
-        <img class="img-responsive" src="img/faed.png"/>
-      </div>
-      <div class="col-md-4">
-        <img class="img-responsive" src="img/lis.png"/>
-      </div>
+    <div class="container main-container lower-border">
+        <div class="row">
+            <div class="col-md-12 text-center main-row1">
+                <img class="img-fluid mx-auto d-block" src="img/logo.png">
+            </div>
+        </div>
+        <div class="row main-row2">
+            <div class="col-md-4 main-ensino">
+                Ensino
+            </div>
+            <div class="col-md-4 main-pesquisa">
+                Pesquisa
+            </div>
+            <div class="col-md-4 main-extensao">
+                Extensão
+            </div>
+        </div>
     </div>
-  </footer>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="col-md-offset-7 col-md-5 right-footer">
+            <p>UDESC - Centro de Ciências Humanas e da Educação, Sala 008</p>
+            <p>Av. Madre Benvenuta, 2007, Itacorubi - Florianópolis</p>
+            <p>Santa Catarina, CEP: 88035-010</p>
+            <p>E-mail: lisudesc@gmail.com</p>
+            <p>Telefone: 4836648545</p>
+        </div>
+    </footer>
 
 </body>
 
