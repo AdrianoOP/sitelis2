@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 .menu-nav {
     font-family: 'Cinzel', serif;
-    font-size: 0.75em;
+    font-size: 0.85em;
+    margin-right: 5em;
+    margin-top: 2em;
     float: right;
 }
 
@@ -16,13 +18,11 @@
 
 .menu-nav li a {
     border-right-style: solid;
-    border-right-color: white;
     border-right-width: 0.5pt;
 }
 
 .menu-nav li:last-child a {
     border-right-style: none;
-    border-right-color: white;
     border-right-width: 0pt;
 }
 
@@ -40,20 +40,98 @@
 }
 
 .menu-nav .open ul {
-    background-color: transparent;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
+
+.menu-nav .open ul a,
+.menu-nav .open ul a:hover,
+.menu-nav li>a {
+    padding: 0 0 0 0;
+    padding-left: 1em;
+}
+
+.menu-nav .open ul a,
+.menu-nav .open ul a:hover {
+    font-size: 0.85em;
+}
+
+
+/** specific style for each menu type **/
+
+
+/** Main Menu ***/
 
 .main-menu .open ul a,
 .main-menu .open ul a:hover,
 .main-menu li>a {
     color: white;
-    padding: 0 0 0 0;
-    padding-left: 1em;
 }
 
-.main-menu .open ul a,
-.main-menu .open ul a:hover {
-    font-size: 0.75em;
+.main-menu .open ul {
+    background-color: rgb(26, 6, 3);
+}
+
+.main-menu li a {
+    border-right-color: white;
+}
+
+.main-menu li:last-child a {
+    border-right-color: white;
+}
+
+
+/** Secondary Menu ***/
+
+.secondary-menu .open ul a,
+.secondary-menu .open ul a:hover,
+.secondary-menu li>a {
+    color: black;
+}
+
+.secondary-menu .open ul {
+    background-color: rgb(248, 248, 248);
+}
+
+.secondary-menu li a {
+    border-right-color: black;
+}
+
+.secondary-menu li:last-child a {
+    border-right-color: black;
+}
+
+
+/*** Buttons classes ***/
+
+.buttons-center {
+    margin-top: 5vh;
+}
+
+.buttons-center-row {
+    margin-top: 2em;
+}
+
+.button-lis {
+    font-size: 2em;
+    min-width: 10em;
+    min-height: 2em;
+}
+
+.button-lis-small {
+    font-size: 1.5em;
+    min-width: 4em;
+    min-height: 3em;
+}
+
+.buttons-center-row button {
+    border: none;
+    margin-left: 1em;
+    background-color: rgba(59, 12, 5, 1);
+}
+
+.buttons-center-row button a,
+.buttons-center-row button a:hover {
+    font-family: 'Cinzel', sans-serif;
+    color: white;
 }

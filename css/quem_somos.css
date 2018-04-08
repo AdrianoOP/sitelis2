@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+.quem-somos-content {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.quem-somos-content h4 {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.quem-somos-content p {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.25em;
+}
