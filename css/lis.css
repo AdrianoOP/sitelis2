@@ -1,13 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel');
-body {
-    background-color: rgb(26, 6, 3);
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700');
+@import url('https://fonts.googleapis.com/css?family=Enriqueta:400,700');
+
+/* special for secondary-page */
+
+.secondary-container {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.secondary-container .row:nth-child(2) {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.secondary-body {
+    background-color: rgb(248, 248, 248);
+    font-family: sans-serif;
+}
+
+.general-content {
+    margin-top: 2em;
+}
+
+.general-content p {
+    font-family: 'Enriqueta', serif;
+    font-weight: normal;
+}
+
+.general-content a,
+.general-content a:hover {
+    font-family: 'Enriqueta', serif;
+    color: black;
+    font-weight: bold;
+}
+
+.cinzel-font,
+.cinzel-font p,
+.cinzel-font a {
+    font-family: 'Cinzel', sans-serif;
+}
+
+.small-header {
+    text-align: center;
+    max-width: 15em;
+}
+
+.small-header-flexible {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
 }
 
 
 /* special for main-page */
 
 .main-body {
-    width: 100%;
+    background-color: rgb(26, 6, 3);
 }
 
 .lower-border {
@@ -17,7 +66,7 @@ body {
 }
 
 .main-container {
-    width: 70%;
+    width: 60%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2em;
@@ -26,6 +75,10 @@ body {
 
 .main-row1 {
     margin-bottom: 1em;
+}
+
+.main-row1>img {
+    width: 100%;
 }
 
 .main-ensino {

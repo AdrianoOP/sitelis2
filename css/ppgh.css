@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+.ppgh-content {
+    margin-top: 10vh;
+}
+
+.ppgh-content h3 {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: bold;
+    font-size: 1.20em;
+    margin-left: 1em;
+}
+
+.ppgh-content p {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.20em;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    margin-left: 1em;
+}
