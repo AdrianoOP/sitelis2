@@ -80,8 +80,19 @@
     border-right-color: white;
 }
 
+.main-menu .icon-bar {
+    color: white;
+    background-color: white;
+}
+
 
 /** Secondary Menu ***/
+
+@media(min-width: 600px) {
+    .secondary-menu {
+        margin-top: -8em;
+    }
+}
 
 .secondary-menu .open ul a,
 .secondary-menu .open ul a:hover,
@@ -99,6 +110,11 @@
 
 .secondary-menu li:last-child a {
     border-right-color: black;
+}
+
+.secondary-menu .icon-bar {
+    color: black;
+    background-color: black;
 }
 
 
