@@ -150,4 +150,5 @@
 .buttons-center-row button a:hover {
     font-family: 'Cinzel', sans-serif;
     color: white;
+    font-weight: normal;
 }

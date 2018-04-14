@@ -8,6 +8,12 @@
     padding-left: 100px;
 }
 
+.secondary-container a,
+.general-content a:hover {
+    color: black;
+    font-weight: bold;
+}
+
 .secondary-container .row:nth-child(2) {
     padding-left: 2%;
     padding-right: 2%;
@@ -121,5 +127,9 @@
 }
 
 .common-header {
+    margin-bottom: 1em;
+}
+
+div p.spaced-p {
     margin-bottom: 1em;
 }
