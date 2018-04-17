@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
+
 .menu-nav {
     font-family: 'Cinzel', serif;
     font-size: 0.85em;
@@ -56,12 +57,8 @@
     font-size: 0.85em;
 }
 
-
 /** specific style for each menu type **/
-
-
 /** Main Menu ***/
-
 .main-menu .open ul a,
 .main-menu .open ul a:hover,
 .main-menu li>a {
@@ -85,10 +82,8 @@
     background-color: white;
 }
 
-
 /** Secondary Menu ***/
-
-@media(min-width: 600px) {
+@media (min-width: 600px) {
     .secondary-menu {
         margin-top: -8em;
     }
@@ -117,9 +112,7 @@
     background-color: black;
 }
 
-
 /*** Buttons classes ***/
-
 .buttons-center {
     margin-top: 5vh;
 }
@@ -130,7 +123,7 @@
 
 .button-lis {
     font-size: 2em;
-    min-width: 10em;
+    min-width: 12em;
     min-height: 2em;
 }
 

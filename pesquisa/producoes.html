@@ -1,587 +1,266 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Evelise Soares Pires">
-    <meta name="author" content="Evelise Soares Pires">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Site LIS">
-    <meta name="author" content="Evelise Soares Pires">
-    <meta name="author" content="Adriano Oliveira Pires">
-    <title>LIS - Pesquisa - Produções</title>
-
-    <!-- Bootstrap Core CSS -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="../css/lis.css" rel="stylesheet">
-    <link href="../css/third_style.css" type="text/css" rel="stylesheet">
-    <link href="../css/fourth_style.css" type="text/css" rel="stylesheet">
-    <link href="../css/navbar.css" rel="stylesheet">
-    <link href="../css/other.css" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="author" content="Evelise Soares Pires"> 
+        <meta name="author" content="Evelise Soares Pires"> 
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="description" content="Site LIS"> 
+        <meta name="author" content="Evelise Soares Pires"> 
+        <meta name="author" content="Adriano Oliveira Pires"> 
+        <title>LIS - Pesquisa - Produções</title>         
+        <!-- Bootstrap Core CSS -->         
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->         
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> 
+        <!-- Custom CSS -->         
+        <link href="../css/lis.css" rel="stylesheet"> 
+        <link href="../css/third_style.css" type="text/css" rel="stylesheet"> 
+        <link href="../css/fourth_style.css" type="text/css" rel="stylesheet"> 
+        <link href="../css/navbar.css" rel="stylesheet"> 
+        <link href="../css/other.css" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>         
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>         
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->         
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->         
+        <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- -->
-</head>
-
-<body class="secondary-body">
-    <div class="common-header clearfix">
-        <div class="text-center">
-            <img id="logo" class="center-block" src="../img/logo_clean.png">
-        </div>
-        <!-- Navigation -->
-        <nav class="navbar menu-nav secondary-menu" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <div class="collapse navbar-collapse" id="nav-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a href="../index.html">Início</a>
-                        </li>
-                        <li>
-                            <a href="../quem_somos.html">Quem Somos</a>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" href="#" id="dropdownSecretaria" data-toggle="dropdown">
-                                Secretaria
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="../geral.html">Geral</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="../documentos.html">Documentos</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="../acervo.html">Acervo</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-        </nav>
-    </div>
-    <!-- Main Header-->
-    <div class="container secondary-container">
-        <div class="row">
-            <h1 class="main_header main_wrapper">Produções</h1>
-        </div>
-        <div class="row">
-            <div class="other-content">
-                <h2 class="content_header content_wrapper small-header-flexible">Artigos em Periódicos</h2>
-                <!-- Prof. Marcia Ramos -->
-                <h3 class="sub_header">
-                    <a href="http://lattes.cnpq.br/5104473139206788">Márcia Ramos de Oliveira</a></h3>
-                <p class="spaced-p">
-                    <strong>OLIVEIRA, M. R; MOREIRA, I. L; FONCECA, L. T.</strong>
-                    <a href="https://sistemas.uft.edu.br/periodicos/index.php/observatorio/article/view/3799/11275">
-                        O FADO NA CIBERCULTURA: Identidade e memória luso-brasileira em plataformas digitais.
-                    </a>Revista Observatório, v. 3, p. 191-215, 2017.
-                </p>
-                <p class="spaced-p">
-                    <strong>OLIVEIRA, M. R; MOREIRA, I. L.</strong>
-                    <a href="http://www.periodicos.udesc.br/index.php/percursos/article/view/984724617342016052/pdf_55">
-                        Impressos Virtuais: estudos de caso e reflexões sobre História Digital e História Pública.
-                    </a>Percursos (Florianópolis. Online), v. 34, p. 052-067, 2016
-                </p>
-                <p class="spaced-p">
-                    <strong>OLIVEIRA, M. R. O (Lp)</strong>
-                    <a href="http://resonancias.uc.cl/es/N-34/o-lp-banquete-dos-mendigos-e-a-censura-musical-no-brasil-1973-2013-es.html">
-                        Banquete dos Mendigos e a Censura Musical.
-                    </a>Resonancias (Santiago), v. 18, p. 155-180, 2014.
-                </p>
-                <p class="spaced-p">
-                    <strong>OLIVEIRA, M. R.</strong>
-                    <a href="http://www.cmu.unicamp.br/seer/index.php/resgate/article/viewFile/356/339">
-                        Pituca/Mozart Régis nas páginas da Revista do Rádio.
-                    </a>RESGATE - Revista Interdisciplinar de Cultura, v. 22, p. 79-89, 2014.
-                </p>
-                <p class="spaced-p">
-                    <strong><a href="http://lattes.cnpq.br/5104473139206788">OLIVEIRA, M. R.</a></strong>
-                    <a>
-                        A historia do samba contada pelo cinema.
-                    </a>Cadernos do Tempo Presente / UFS, v. 6, p. 3-15, 2012.
-                </p>
-                <p class="spaced-p">
-                    <strong><a href="http://lattes.cnpq.br/5104473139206788">OLIVEIRA, M. R.</a></strong>
-                    <a>
-                        Batuque, samba e macumba nas palavras e pincéis de Cecília Meireles.
-                    </a>NUEVO MUNDO-MUNDOS NUEVOS, v. 6, p. n.20, 2006.
-                </p>
-                <p class="spaced-p">
-                    <strong>OLIVEIRA, M. R.; COELHO, M. C. M. N. ; GORSKI, F.T.</strong>
-                    <a href="http://lattes.cnpq.br/1527630424386535">
-                        A história no teatro: Recortes Medievais - o amor como subtítulo.
-                    </a>Urdimento (UDESC), v. n.7, p. 83-100, 2005.
-                </p>
-                <p class="spaced-p">
-                    <strong>OLIVEIRA, M. R.</strong>
-                    <a href="http://lattes.cnpq.br/5104473139206788">
-                        Batuque, Samba e Macumba nas Palavras e Pincéis de Cecília Meireles.
-                    </a>História em Revista (UFPel), Pelotas - RS, v. 10, p. 191-200, 2004.
-                </p>
-
-                <!-- Prof. Rafael Rosa Hagemeyer -->
-                <h3 class="sub_header"><a href="http://lattes.cnpq.br/4314056838703673">Rafael Rosa Hagemeyer</a></h3>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        Lula, o filho do Brasil: o herói da classe trabalhadora no filme de Fábio Barreto. Páginas.
-                    </a>Revista digital de la Escuela de Historia, v. 1, p. 19-34, 2014.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        Reencenando o drama do passado: a greve no documentário Os queixadas (1978), de Rogério Corrêa.
-                    </a>Fronteiras, v. 1, p. 103-117, 2013.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R; MEDEIROS, Alexandre Pedro de.</strong>
-                    <a>
-                        Da narrativa à identidade: as representações das greves no ABC paulista e os depoimentos contidos no documentário Peões, de Eduardo Coutinho (2004).
-                    </a>Esboços, v. 19, p. 219-241, 2012.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        Levando ao longe o canto da pátria: gravações em disco e difusões no rádio do hino nacional (1900-1945).
-                    </a>Fênix (UFU. Online), v. 8, p. 1-22, 2012. ​
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        La Nación cantada: la reglamentación de los himnos nacionales en Brasil y Argentina.
-                    </a>Cuadernos Americanos Nueva Época, v. 2, p. 99-116, 2011.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        Imagens e história da industrialização: a pesquisa histórica e a produção do documentário "Libertários", de Lauro Escorel Filho (1976).
-                    </a>Fronteiras (Florianópolis), v. 18, p. 49-65, 2011.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        Compondo imagens para recompor a nação: as pinturas de Goya e a iconografia da Guerra de Independência na Espanha.
-                    </a>Anuario Brasileno de Estudios Hispanicos, v. 1, p. 257, 2011.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        A Internacional: sentidos dissonantes no hino dos trabalhadores durante a Guerra Civil Espanhola.
-                    </a>Projeto História (PUCSP), v. 36, p. 211-231, 2008.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        Los significados de la Guerra de la Independencia en "La Defensa de Zaragoza", de Álvarez Cubero.
-                    </a>Anuario del Departamento de Historia y Teoría del Arte, v. XIX, p. 121-132, 2007. ​
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        A Crítica de Arte em Panorama Histórico.
-                    </a>Ciência & Opinião, v. 3, p. 195-220, 2006.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        O Canto da Esperança: O papel da música no romance de Malraux sobre a Guerra Civil Espanhola.
-                    </a>Olhar (UFSCar), v. 14-15, p. 273-286, 2006. ​
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                            Entre a trégua e a guerra: dois hinos anarquistas no movimento operário argentino.
-                    </a>Métis (UCS), Caxias do Sul, RS, v. 4, n.7, p. 59-79, 2005.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        A música popular no rádio: produto cultural ou comercial?.
-                    </a>Ciência & Opinião (Impresso), Curitiba, v. 1, n.1, p. 51-67, 2003.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        El gaucho sin patria: a canção anarquista na Argentina.
-                    </a>Anos 90 (UFRGS. Impresso), Porto Alegre - RS, v. 9, n.15, p. 93-118, 2002.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        Maio de 68: um mito sempre revisitado.
-                    </a>Todavia (UEL), Londrina - PR, v. 1, n.2, 1999.
-                </p>
-                <p class="spaced-p">
-                    <strong>HAGEMEYER, R. R.</strong>
-                    <a>
-                        Ibiúna, 1968: A Encruzilhada do Movimento Estudantil.
-                    </a>História. Questões e Debates, Curitiba, v. 13, n.25, p. 200-218, 1998.
-                </p>
-
-                <!-- Prof. Rogério Rosa Rodrigues -->
-                <h3 class="sub_header"><a href="http://lattes.cnpq.br/1738939950525949">Rogério Rosa Rodrigues</a></h3>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Estilhaços da violência: a Guerra do Contestado e a memória oficial.
-                    </a>Revista Contemporânea, v. 1, p. 1-25, 2015.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Animatógrafo da guerra: Canudos e Contestado e a fotografia militar no Brasil. Boletim do Museu Paraense Emílio Goeldi.
-                    </a>Ciências Humanas, v. 9, p. 383-401, 2014.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Traços biográficos de João Ribeiro ou as muitas faces de João Viva a São João.
-                    </a>História (São Paulo. Online), v. 32, p. 377-400, 2013. ​
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Critica e erudição em João Ribeiro.
-                    </a>Dimensões: Revista de História da UFES, v. 1, p. 87-109, 2013.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Um espectro ronda os sertões: Contestado e Canudos e o trem da história.
-                    </a>História e Culturas, v. 1, p. 22-31, 2013.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Imagens cruzadas: exército e sertão na Primeira República.
-                    </a>História, Ciências, Saúde-Manguinhos (Impresso), v. 19, p. 1301-1317, 2012.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        É doce e honroso morrer pela pátria? rituais cívicos e disciplina militar na Guerra do Contestado.
-                    </a>Esboços, v. 19, p. 31-48, 2012.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        A guerra como política por outros meios.
-                    </a>Revista Brasileira de História Militar, v. 2, p. 4, 2011.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Espírito militar e ideologia política: a atuação do exército na repressão à Guerra do Contestado.
-                    </a>Revista do Mestrado de História (Universidade Severino Sombra), v. 13, p. 69-82, 2011.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Rondon: O Marechal da Floresta de Todd Diacon.
-                    </a>Revista de História (UFES), v. 19, p. 223-230, 2008.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Por um novo exército.
-                    </a>Revista de História (Rio de Janeiro), v. 1, p. 58-61, 2008.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Malhando a guerra: humor e política na Guerra do Contestado.
-                    </a>Olhar Crítico, v. 32, p. 1/32, 2007.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        O mesmo em outras formas.
-                    </a>Esboços (UFSC), v. 8, p. 187-198, 2000.
-                </p>
-                <p class="spaced-p">
-                    <strong>RODRIGUES, R. R.</strong>
-                    <a>
-                        Luz, Aujor Ávila da. Os fanáticos: crimes e aberrações dos nossos caboclos (resenha).
-                    </a>Esboços (UFSC), v. 7, p. 195-196, 1999.
-                </p>
-                <div class="other-content">
-                    <h2 class="content_header content_wrapper small-header-flexible">Livros</h2>
-                    <!-- Prof. Marcia Ramos -->
-                    <h3 class="sub_header">
-                        <a href="http://lattes.cnpq.br/5104473139206788">Márcia Ramos de Oliveira</a></h3>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R. MARTINS, C.P. ; GONÇALVES, A. (Org.) ; MOREIRA, I. L (Orgs.).</strong>
-                        <a>
-                            Estudos sobre a Música Popular - aproximações de escuta.
-                        </a>1a. ed. Florianópolis, Santa Catarina,: UDESC, 2016. v. 1. 106p.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.; MUCELIN, P. C. (Org.) ; MOREIRA, I. L. (Org.) ; MARTINS, C.P. (Org.).</strong>
-                        <a>
-                                História e tecnologia: diálogos em pesquisa e ensino.
-                        </a>1a. ed. Florianópolis, Santa Catarina,: UDESC, 2016. v. 1. 180p .
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.; ZANONI, E. F. (Org.).</strong>
-                        <a>
-                            Questões crônicas no ensino da história.
-                        </a>1a. ed. Florianópolis, Santa Catarina,: UDESC, 2015. v. 1. 85p.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.</strong>
-                        <a>
-                            Lupicínio Rodrigues: a cidade, a música, os amigos.
-                        </a>1a. ed. Florianópolis, SC: Editora da UDESC, 2013. v. 1. 340p .
-                    </p>
-
-                    <!-- Prof. Rafael Rosa Hagemeyer -->
-                    <h3 class="sub_header">
-                        <a href="http://lattes.cnpq.br/4314056838703673">Rafael Rosa Hagemeyer</a></h3>
-                    <p class="spaced-p">
-                        <strong>HAGEMEYER, R. R.</strong>
-                        <a>
-                            Caminhando e cantando: o imaginário do movimento estudantil brasileiro de 1968.
-                        </a>1. ed. São Paulo: EDUSP, 2016. 160p .
-                    </p>
-                    <p class="spaced-p">
-                        <strong>HAGEMEYER, R. R.</strong>
-                        <a>
-                            História & Audiovisual.
-                        </a>Belo Horizonte: Autêntica Editora, 2012.
-                    </p>
-
-                    <!-- Prof. Rogério Rosa Rodrigues -->
-                    <h3 class="sub_header"><a href="http://lattes.cnpq.br/1738939950525949">Rogério Rosa Rodrigues</a></h3>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R. (Org.).</strong>
-                        <a>
-                            Possibilidades de pesquisa em História.
-                        </a>1a ed.São Paulo: Contexto, 2017.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.; VALENTINI, D. J. (Org.).</strong>
-                        <a>
-                            Contestado: fronteiras, colonização e conflitos (1912-1916).
-                        </a>1. ed. Chapecó/SC: Letra&Vida, 2015. v. 1. 388p.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            Nos desvão da História. João Ribeiro.
-                        </a>1. ed. Jundiaí/SP: Paco Editorial, 2015. v. 1. 260p.
-                    </p>
-                </div>
-
-
-
-                <div class="other-content">
-                    <h2 class="content_header content_wrapper small-header-flexible">Capítulos de Livros</h2>
-
-                    <!-- Prof. Marcia Ramos -->
-                    <h3 class="sub_header">
-                        <a href="http://lattes.cnpq.br/5104473139206788">Márcia Ramos de Oliveira</a></h3>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.; MUCELIN, P. C.</strong>
-                        <a>
-                            Os blogs sob o olhar do historiador.
-                            </a>In: Rogério Rosa Rodrigues. (Org.). Possibilidades de pesquisa em História. 1aed.São Paulo: Contexto, 2017, v. 1, p. 223-242.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.</strong>
-                        <a>
-                            Reflexões sobre o gênero biográfico: literatura, ilusão e disputas de memória.
-                        </a>In: GONÇALVES, Janice. (Org.). História do tempo presente: oralidade, memória, mídia.. 1ed.Itajaí/SC: Casa Aberta, 2016, v. 1, p. 101-116.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.</strong>
-                        <a>
-                            Reflexões sobre o gênero biográfico: literatura, ilusão e disputas de memória.
-                        </a>In: GONÇALVES, Janice. (Org.). História do tempo presente: oralidade, memória, mídia.. 1ed.Itajaí/SC: Casa Aberta, 2016, v. 1, p. 101-116.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R. O</strong>
-                        <a>
-                            Portal do LIS como divulgação e relato de experiência: resultados da produção docente e discente no ensino, pesquisa e extensão (2005-2016).
-                        </a>In: OLIVEIRA, Márcia Ramos; MOREIRA, Igor Lemos; MUCELIN, Patrícia Carla ; MARTINS, Cristiane Pereira. (Org.). História e Tecnologia: Diálogos em pesquisa e ensino.. 1a.ed.Florianópolis, Santa Catarina,:
-                        UDESC, 2016, v. 1, p. 148-155.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.</strong>
-                        <a>
-                            Uma cidade, uma guerra, um compositor.
-                        </a>In: Dilton Cândido Santos Maynard. (Org.). Visões do Mundo Contemporâneo. 1a.ed.São Paulo, SP: LP-Books, 2012, v. 1, p. 105-121.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.; VERGARA, F. C.</strong>
-                        <a>
-                            A potencializacão do ensino de História Antiga por meio de atividades extracurriculares: duas experiências em universidades públicas do Sul do Brasil.
-                        </a>In: CORNELLI, Gabriele; CHEVITARESE, André Leonardo; SILVA, Maria Aparecida de Oliveira.. (Org.). Tradição Clássica no Brasil. 1. Brasília-DF: Fortium, 2008, v. 1, p. 22-66.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.</strong>
-                        <a>
-                            Mozart na Ópera do carnaval: canto e visão sem igual.
-                        </a>In: Alcides Freire Ramos; Rosangela Patriota; Sandra Jathay Pesavento.. (Org.). Imagens na História. 1a.ed.São Paulo: HUCITEC /Aderaldo & Rothschild, 2008, v. 1, p. 260-277.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.</strong>
-                        <a>
-                            Canto e tradição: a voz como narrativa histórica. Narrativas, imagens e práticas sociais: percursos em história cultural.
-                        </a>1ed.Porto Alegre: Asterisco, 2008, v. 1, p. 53-70.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.</strong>
-                        <a>
-                            Entre representações e esteriótipos: O tipo gaúcho como expressão na música gravada no século XX.
-                        </a>In: GOLIN, Tau; BOEIRA, Nelson; GERTZ, René (Diretor do volume). (Org.). História Geral do Rio Grande do Sul - República: da revolução de 1930 à Ditadura Militar (1930-1985). 1aed.Passo Fundo/RS: Méritos,
-                        2007, v. 4, p. 505-526.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>OLIVEIRA, M. R.</strong>
-                        <a>
-                            Oralidade e canção: a música popular brasileira na história.
-                        </a>In: Antonio Herculano Lopes; Monica Pimenta Velloso; Sandra Jatahy Pesavento. (Org.). História e linguagens:texto, imagem, oralidade e representações. 1a.ed.Rio de Janeiro/RJ: 7Letras, 2006, v. 1, p.
-                        245-254.
-                    </p>
-
-
-                    <!-- Prof. Rafael Rosa Hagemeyer -->
-                    <h3 class="sub_header">
-                        <a href="http://lattes.cnpq.br/4314056838703673">Rafael Rosa Hagemeyer</a></h3>
-                    <p class="spaced-p">
-                        <strong>HAGEMEYER, R. R.</strong>
-                        <a>
-                            Revolução na Guerra Civil Espanhola.
-                        </a>In: Carlos Alberto Sampaio Barbosa. (Org.). As Revoluções Contemporâneas Paradigmáticas. 1ed.Maringá: Editora UEM, 2016, v. , p. 145-168.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>HAGEMEYER, R. R.</strong>
-                        <a>
-                            O porteiro da noite: a erotização do nazismo.
-                        </a>In: Cesar Augusto Barcellos Guazzelli, Rafael Hansen Quinsani. (Org.). Clio e Eros no escurinho do cinema: Ménage à trois entre história, cinema e sexualidade. 1ed.São José dos Pinhais - PR: Estronho,
-                        2016, v. 1, p. 273-306.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>HAGEMEYER, R. R.</strong>
-                        <a>
-                            Representar a história através de imagens: entre a reconstituição e a analogia.
-                        </a>In: Alberto Gawryszewski (Org.). Imagem em debate. Londrina: Eduel, 2011, v. , p. 39-58.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>HAGEMEYER, R. R.</strong>
-                        <a>
-                            1968: O Ano da Derrubada do Ensino Pago no Paraná.
-                            </a>In: João Roberto Martins Filho. (Org.). 1968: Faz 30 anos.. Campinas: Mercado de Letras, 1998, v. , p. 95-128.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>HAGEMEYER, R. R.</strong>
-                        <a>
-                            O movimento estudantil de 1968 e a nostalgia do romantismo revolucionário.
-                        </a>In: Luís Antonio Groppo; Michel Zaidan Filho; Otávio Luiz Machado. (Org.). Juventude e Movimento Estudantil: Ontem e Hoje. 1ed.Recife: Editora da UFPE, 2008, v. 1, p. 48-66.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>HAGEMEYER, R. R.</strong>
-                        <a>
-                            Imprensa e democracia: história e perspectivas.
-                        </a>In: Tomás Antônio Barreiros; Alexandre Castro; Marcelo Lima. (Org.). Jornalismo: reflexões, experiências, ensino. 1ed.Curitiba: Pós-Escrito, 2006, v. , p. 181-207.
-                    </p>
-
-                    <!-- Prof. Rogério Rosa Rodrigues -->
-                    <h3 class="sub_header"><a href="http://lattes.cnpq.br/1738939950525949">Rogério Rosa Rodrigues</a></h3>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            Manuais Didáticos.
-                        </a>In: Rogério Rosa Rodrigues. (Org.). Possibilidades de Pesquisa em História. 1ed.São Paulo: Contexto, 2017, v. 1, p. 55-82. ​
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            João Ribeiro e Heinrich Handelmann: diálogos subterrâneos.
-                        </a>In: Júlio Bentivoglio; Bruno César Nascimento. (Org.). Escrever história: historiadores e historiografia nos séculos XIX e XX. 1ed.: , 2017, v. 1, p. 165-188.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            Nas águas do esquecimento. O movimento do Contestado e o dever de memória.
-                        </a>In: Priori, Angelo; Gruner, Clóvis Mendes. (Org.). Contestado: 100 anos de uma guerra sem fim. 1ed.Curitiba: Editora ANPUH/PR, 2016, v. 1, p. 29-53.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            Entre sabres e ressentimentos: política, guerra e literatura na Primeira República.
-                        </a>In: Fernando da Silva Rodrigues; Francisco Ferraz; Surama Conde de Sá Pinto. (Org.). História militar: novos caminhos e novas abordagens. 1ed.Jundiaí: Paco Editorial, 2015, v. 2, p. 191-211.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            Arquivos da ordem: o Contestado e a fotografia de guerra.
-                        </a>In: Delmir José Valentini; Rogério Rosa Rodrigues. (Org.). Contestado: fronteiras, colonização e conflitos (1912-1916). 1ed.Chapecó/SC: Letra&Vida, 2015, v. 1, p. 375-387.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.; SOARES, J.; GALLY, C.</strong>
-                        <a>
-                            Notas sobre uma introdução: João Ribeiro e a escrita da história do Brasil. Nos desvão da História. João Ribeiro.
-                        </a>1ed.Jundiaí/SP: Paco Editorial, 2015, v. 1, p. 41-57.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            Nos anais eternos da história. João Ribeiro e a historiografia nacional. Nos desvão da História. João Ribeiro.
-                        </a>1ed.Jundiaí/SP: Paco Editorial, 2015, v. 1, p. 215-256.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            Filho ingrato: Rui Barbosa e a campanha civilista na Bahia.
-                        </a>In: Dilton Oliveira de Araújo; Maria José Rapassi Mascarenhas. (Org.). Sociedade e relações de poder na Bahia: séculos XVII-XX. 1ed.Salvador: EDUFBA, 2014, v. 1, p. 233-256.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R. WEHLING, A.</strong>
-                        <a>
-                            A Guerra do Contestado e a História Militar Brasileira.
-                        </a>In: Arno Wehling. (Org.). 100 anos do Contestado: memória, história e patrimônio. 1ed.Florianópolis: MPSC, 2013, v. 1, p. 325-349.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            As trincheiras das palavras: os historiadores de farda e as narrativas históricas sobre o Contestado.
-                        </a>In: Delmir José Valentini; Marcia Janete Espig; Paulo Pinheiro Machado. (Org.). Nem fanáticos, nem jagunços: reflexões sobre o Contestado (1912-1916). 1ed.Pelotas/RS: Editora da Universidade Federal
-                        de Pelotas, 2012, v. 1, p. 237-261.
-                    </p>
-                    <p class="spaced-p">
-                        <strong>RODRIGUES, R. R.</strong>
-                        <a>
-                            Das ordens à disciplina: a relação do Exército brasileiro com as vilas na região do Contestado.
-                        </a>In: Paulo Pinheiro Machado; Márcia Janete Espig. (Org.). A Guerra Santa Revisitada: novos estudos sobre o movimento do Contestado. 1ªed.Florianópolis: UFSC, 2008, v. 1, p. 13-31.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-
+    <![endif]-->         
+        <!-- -->         
+    </head>     
+    <body class="secondary-body"> 
+        <div class="common-header clearfix"> 
+            <div class="text-center"> 
+                <img id="logo" class="center-block" src="../img/logo_clean.png"> 
+            </div>             
+            <!-- Navigation -->             
+            <nav class="navbar menu-nav secondary-menu" role="navigation"> 
+                <div class="container-fluid"> 
+                    <div class="navbar-header"> 
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse"> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                        </button>                         
+                    </div>                     
+                    <div class="collapse navbar-collapse" id="nav-collapse"> 
+                        <ul class="nav navbar-nav"> 
+                            <li class="active"> 
+                                <a href="../index.html">Início</a> 
+                            </li>                             
+                            <li> 
+                                <a href="../quem_somos.html">Quem Somos</a> 
+                            </li>                             
+                            <li class="dropdown"> 
+                                <a class="dropdown-toggle" href="#" id="dropdownSecretaria" data-toggle="dropdown"> 
+                                Secretaria </a> 
+                                <ul class="dropdown-menu"> 
+                                    <li> 
+                                        <a class="dropdown-item" href="../geral.html">Geral</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="dropdown-item" href="../documentos.html">Documentos</a> 
+                                    </li>                                     
+                                    <li> 
+                                        <a class="dropdown-item" href="../acervo.html">Acervo</a> 
+                                    </li>                                     
+                                </ul>                                 
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                    <!-- /.navbar-collapse -->                     
+                </div>                 
+            </nav>             
+        </div>         
+        <!-- Main Header-->         
+        <div class="container secondary-container"> 
+            <div class="row"> 
+                <h1 class="main_header main_wrapper">Produções</h1> 
+            </div>             
+            <div class="row"> 
+                <div class="other-content producoes"> 
+                    <h2 class="content_header content_wrapper small-header-flexible">Artigos em Periódicos</h2> 
+                    <!-- Prof. Marcia Ramos -->                     
+                    <h3 class="sub_header"> <a href="http://lattes.cnpq.br/5104473139206788">Márcia Ramos de Oliveira</a></h3> 
+                    <p class="spaced-p"> <strong>OLIVEIRA, M. R; MOREIRA, I. L; FONCECA, L. T.</strong> <a href="https://sistemas.uft.edu.br/periodicos/index.php/observatorio/article/view/3799/11275"> 
+                        O FADO NA CIBERCULTURA: Identidade e memória luso-brasileira em plataformas digitais. </a>Revista Observatório, v. 3, p. 191-215, 2017. </p> 
+                    <p class="spaced-p"> <strong>OLIVEIRA, M. R; MOREIRA, I. L.</strong> <a href="http://www.periodicos.udesc.br/index.php/percursos/article/view/984724617342016052/pdf_55"> 
+                        Impressos Virtuais: estudos de caso e reflexões sobre História Digital e História Pública. </a>Percursos (Florianópolis. Online), v. 34, p. 052-067, 2016 </p> 
+                    <p class="spaced-p"> <strong>OLIVEIRA, M. R. O (Lp)</strong> <a href="http://resonancias.uc.cl/es/N-34/o-lp-banquete-dos-mendigos-e-a-censura-musical-no-brasil-1973-2013-es.html"> 
+                        Banquete dos Mendigos e a Censura Musical. </a>Resonancias (Santiago), v. 18, p. 155-180, 2014. </p> 
+                    <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a href="http://www.cmu.unicamp.br/seer/index.php/resgate/article/viewFile/356/339"> 
+                        Pituca/Mozart Régis nas páginas da Revista do Rádio. </a>RESGATE - Revista Interdisciplinar de Cultura, v. 22, p. 79-89, 2014. </p> 
+                    <p class="spaced-p"> <strong><a href="http://lattes.cnpq.br/5104473139206788">OLIVEIRA, M. R.</a></strong> <a> 
+                        A historia do samba contada pelo cinema. </a>Cadernos do Tempo Presente / UFS, v. 6, p. 3-15, 2012. </p> 
+                    <p class="spaced-p"> <strong><a href="http://lattes.cnpq.br/5104473139206788">OLIVEIRA, M. R.</a></strong> <a> 
+                        Batuque, samba e macumba nas palavras e pincéis de Cecília Meireles. </a>NUEVO MUNDO-MUNDOS NUEVOS, v. 6, p. n.20, 2006. </p> 
+                    <p class="spaced-p"> <strong>OLIVEIRA, M. R.; COELHO, M. C. M. N. ; GORSKI, F.T.</strong> <a href="http://lattes.cnpq.br/1527630424386535"> 
+                        A história no teatro: Recortes Medievais - o amor como subtítulo. </a>Urdimento (UDESC), v. n.7, p. 83-100, 2005. </p> 
+                    <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a href="http://lattes.cnpq.br/5104473139206788"> 
+                        Batuque, Samba e Macumba nas Palavras e Pincéis de Cecília Meireles. </a>História em Revista (UFPel), Pelotas - RS, v. 10, p. 191-200, 2004. </p> 
+                    <!-- Prof. Rafael Rosa Hagemeyer -->                     
+                    <h3 class="sub_header"></h3> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        Lula, o filho do Brasil: o herói da classe trabalhadora no filme de Fábio Barreto. Páginas. </a>Revista digital de la Escuela de Historia, v. 1, p. 19-34, 2014. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        Reencenando o drama do passado: a greve no documentário Os queixadas (1978), de Rogério Corrêa. </a>Fronteiras, v. 1, p. 103-117, 2013. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R; MEDEIROS, Alexandre Pedro de.</strong> <a> 
+                        Da narrativa à identidade: as representações das greves no ABC paulista e os depoimentos contidos no documentário Peões, de Eduardo Coutinho (2004). </a>Esboços, v. 19, p. 219-241, 2012. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        Levando ao longe o canto da pátria: gravações em disco e difusões no rádio do hino nacional (1900-1945). </a>Fênix (UFU. Online), v. 8, p. 1-22, 2012. ​ </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        La Nación cantada: la reglamentación de los himnos nacionales en Brasil y Argentina. </a>Cuadernos Americanos Nueva Época, v. 2, p. 99-116, 2011. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        Imagens e história da industrialização: a pesquisa histórica e a produção do documentário "Libertários", de Lauro Escorel Filho (1976). </a>Fronteiras (Florianópolis), v. 18, p. 49-65, 2011. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        Compondo imagens para recompor a nação: as pinturas de Goya e a iconografia da Guerra de Independência na Espanha. </a>Anuario Brasileno de Estudios Hispanicos, v. 1, p. 257, 2011. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        A Internacional: sentidos dissonantes no hino dos trabalhadores durante a Guerra Civil Espanhola. </a>Projeto História (PUCSP), v. 36, p. 211-231, 2008. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        Los significados de la Guerra de la Independencia en "La Defensa de Zaragoza", de Álvarez Cubero. </a>Anuario del Departamento de Historia y Teoría del Arte, v. XIX, p. 121-132, 2007. ​ </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        A Crítica de Arte em Panorama Histórico. </a>Ciência & Opinião, v. 3, p. 195-220, 2006. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        O Canto da Esperança: O papel da música no romance de Malraux sobre a Guerra Civil Espanhola. </a>Olhar (UFSCar), v. 14-15, p. 273-286, 2006. ​ </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            Entre a trégua e a guerra: dois hinos anarquistas no movimento operário argentino. </a>Métis (UCS), Caxias do Sul, RS, v. 4, n.7, p. 59-79, 2005. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        A música popular no rádio: produto cultural ou comercial?. </a>Ciência & Opinião (Impresso), Curitiba, v. 1, n.1, p. 51-67, 2003. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        El gaucho sin patria: a canção anarquista na Argentina. </a>Anos 90 (UFRGS. Impresso), Porto Alegre - RS, v. 9, n.15, p. 93-118, 2002. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        Maio de 68: um mito sempre revisitado. </a>Todavia (UEL), Londrina - PR, v. 1, n.2, 1999. </p> 
+                    <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                        Ibiúna, 1968: A Encruzilhada do Movimento Estudantil. </a>História. Questões e Debates, Curitiba, v. 13, n.25, p. 200-218, 1998. </p> 
+                    <!-- Prof. Rogério Rosa Rodrigues -->                     
+                    <h3 class="sub_header"><a href="http://lattes.cnpq.br/1738939950525949">Rogério Rosa Rodrigues</a></h3> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Estilhaços da violência: a Guerra do Contestado e a memória oficial. </a>Revista Contemporânea, v. 1, p. 1-25, 2015. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Animatógrafo da guerra: Canudos e Contestado e a fotografia militar no Brasil. Boletim do Museu Paraense Emílio Goeldi. </a>Ciências Humanas, v. 9, p. 383-401, 2014. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Traços biográficos de João Ribeiro ou as muitas faces de João Viva a São João. </a>História (São Paulo. Online), v. 32, p. 377-400, 2013. ​ </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Critica e erudição em João Ribeiro. </a>Dimensões: Revista de História da UFES, v. 1, p. 87-109, 2013. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Um espectro ronda os sertões: Contestado e Canudos e o trem da história. </a>História e Culturas, v. 1, p. 22-31, 2013. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Imagens cruzadas: exército e sertão na Primeira República. </a>História, Ciências, Saúde-Manguinhos (Impresso), v. 19, p. 1301-1317, 2012. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        É doce e honroso morrer pela pátria? rituais cívicos e disciplina militar na Guerra do Contestado. </a>Esboços, v. 19, p. 31-48, 2012. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        A guerra como política por outros meios. </a>Revista Brasileira de História Militar, v. 2, p. 4, 2011. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Espírito militar e ideologia política: a atuação do exército na repressão à Guerra do Contestado. </a>Revista do Mestrado de História (Universidade Severino Sombra), v. 13, p. 69-82, 2011. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Rondon: O Marechal da Floresta de Todd Diacon. </a>Revista de História (UFES), v. 19, p. 223-230, 2008. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Por um novo exército. </a>Revista de História (Rio de Janeiro), v. 1, p. 58-61, 2008. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Malhando a guerra: humor e política na Guerra do Contestado. </a>Olhar Crítico, v. 32, p. 1/32, 2007. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        O mesmo em outras formas. </a>Esboços (UFSC), v. 8, p. 187-198, 2000. </p> 
+                    <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                        Luz, Aujor Ávila da. Os fanáticos: crimes e aberrações dos nossos caboclos (resenha). </a>Esboços (UFSC), v. 7, p. 195-196, 1999. </p> 
+                    <div class="other-content"> 
+                        <h2 class="content_header content_wrapper small-header-flexible">Livros</h2> 
+                        <!-- Prof. Marcia Ramos -->                         
+                        <h3 class="sub_header"> <a href="http://lattes.cnpq.br/5104473139206788">Márcia Ramos de Oliveira</a></h3> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R. MARTINS, C.P. ; GONÇALVES, A. (Org.) ; MOREIRA, I. L (Orgs.).</strong> <a> 
+                            Estudos sobre a Música Popular - aproximações de escuta. </a>1a. ed. Florianópolis, Santa Catarina,: UDESC, 2016. v. 1. 106p. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.; MUCELIN, P. C. (Org.) ; MOREIRA, I. L. (Org.) ; MARTINS, C.P. (Org.).</strong> <a> 
+                                História e tecnologia: diálogos em pesquisa e ensino. </a>1a. ed. Florianópolis, Santa Catarina,: UDESC, 2016. v. 1. 180p . </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.; ZANONI, E. F. (Org.).</strong> <a> 
+                            Questões crônicas no ensino da história. </a>1a. ed. Florianópolis, Santa Catarina,: UDESC, 2015. v. 1. 85p. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a> 
+                            Lupicínio Rodrigues: a cidade, a música, os amigos. </a>1a. ed. Florianópolis, SC: Editora da UDESC, 2013. v. 1. 340p . </p> 
+                        <!-- Prof. Rafael Rosa Hagemeyer -->                         
+                        <h3 class="sub_header"> <a href="http://lattes.cnpq.br/4314056838703673">Rafael Rosa Hagemeyer</a></h3> 
+                        <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            Caminhando e cantando: o imaginário do movimento estudantil brasileiro de 1968. </a>1. ed. São Paulo: EDUSP, 2016. 160p . </p> 
+                        <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            História & Audiovisual. </a>Belo Horizonte: Autêntica Editora, 2012. </p> 
+                        <!-- Prof. Rogério Rosa Rodrigues -->                         
+                        <h3 class="sub_header"><a href="http://lattes.cnpq.br/1738939950525949">Rogério Rosa Rodrigues</a></h3> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R. (Org.).</strong> <a> 
+                            Possibilidades de pesquisa em História. </a>1a ed.São Paulo: Contexto, 2017. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.; VALENTINI, D. J. (Org.).</strong> <a> 
+                            Contestado: fronteiras, colonização e conflitos (1912-1916). </a>1. ed. Chapecó/SC: Letra&Vida, 2015. v. 1. 388p. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            Nos desvão da História. João Ribeiro. </a>1. ed. Jundiaí/SP: Paco Editorial, 2015. v. 1. 260p. </p> 
+                    </div>                     
+                    <div class="other-content"> 
+                        <h2 class="content_header content_wrapper small-header-flexible">Capítulos de Livros</h2> 
+                        <!-- Prof. Marcia Ramos -->                         
+                        <h3 class="sub_header"> <a href="http://lattes.cnpq.br/5104473139206788">Márcia Ramos de Oliveira</a></h3> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.; MUCELIN, P. C.</strong> <a> 
+                            Os blogs sob o olhar do historiador. </a>In: Rogério Rosa Rodrigues. (Org.). Possibilidades de pesquisa em História. 1aed.São Paulo: Contexto, 2017, v. 1, p. 223-242. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a> 
+                            Reflexões sobre o gênero biográfico: literatura, ilusão e disputas de memória. </a>In: GONÇALVES, Janice. (Org.). História do tempo presente: oralidade, memória, mídia.. 1ed.Itajaí/SC: Casa Aberta, 2016, v. 1, p. 101-116. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a> 
+                            Reflexões sobre o gênero biográfico: literatura, ilusão e disputas de memória. </a>In: GONÇALVES, Janice. (Org.). História do tempo presente: oralidade, memória, mídia.. 1ed.Itajaí/SC: Casa Aberta, 2016, v. 1, p. 101-116. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R. O</strong> <a> 
+                            Portal do LIS como divulgação e relato de experiência: resultados da produção docente e discente no ensino, pesquisa e extensão (2005-2016). </a>In: OLIVEIRA, Márcia Ramos; MOREIRA, Igor Lemos; MUCELIN, Patrícia Carla ; MARTINS, Cristiane Pereira. (Org.). História e Tecnologia: Diálogos em pesquisa e ensino.. 1a.ed.Florianópolis, Santa Catarina,:
+                        UDESC, 2016, v. 1, p. 148-155. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a> 
+                            Uma cidade, uma guerra, um compositor. </a>In: Dilton Cândido Santos Maynard. (Org.). Visões do Mundo Contemporâneo. 1a.ed.São Paulo, SP: LP-Books, 2012, v. 1, p. 105-121. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.; VERGARA, F. C.</strong> <a> 
+                            A potencializacão do ensino de História Antiga por meio de atividades extracurriculares: duas experiências em universidades públicas do Sul do Brasil. </a>In: CORNELLI, Gabriele; CHEVITARESE, André Leonardo; SILVA, Maria Aparecida de Oliveira.. (Org.). Tradição Clássica no Brasil. 1. Brasília-DF: Fortium, 2008, v. 1, p. 22-66. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a> 
+                            Mozart na Ópera do carnaval: canto e visão sem igual. </a>In: Alcides Freire Ramos; Rosangela Patriota; Sandra Jathay Pesavento.. (Org.). Imagens na História. 1a.ed.São Paulo: HUCITEC /Aderaldo & Rothschild, 2008, v. 1, p. 260-277. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a> 
+                            Canto e tradição: a voz como narrativa histórica. Narrativas, imagens e práticas sociais: percursos em história cultural. </a>1ed.Porto Alegre: Asterisco, 2008, v. 1, p. 53-70. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a> 
+                            Entre representações e esteriótipos: O tipo gaúcho como expressão na música gravada no século XX. </a>In: GOLIN, Tau; BOEIRA, Nelson; GERTZ, René (Diretor do volume). (Org.). História Geral do Rio Grande do Sul - República: da revolução de 1930 à Ditadura Militar (1930-1985). 1aed.Passo Fundo/RS: Méritos,
+                        2007, v. 4, p. 505-526. </p> 
+                        <p class="spaced-p"> <strong>OLIVEIRA, M. R.</strong> <a> 
+                            Oralidade e canção: a música popular brasileira na história. </a>In: Antonio Herculano Lopes; Monica Pimenta Velloso; Sandra Jatahy Pesavento. (Org.). História e linguagens:texto, imagem, oralidade e representações. 1a.ed.Rio de Janeiro/RJ: 7Letras, 2006, v. 1, p.
+                        245-254. </p> 
+                        <!-- Prof. Rafael Rosa Hagemeyer -->                         
+                        <h3 class="sub_header"> <a href="http://lattes.cnpq.br/4314056838703673">Rafael Rosa Hagemeyer</a></h3> 
+                        <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            Revolução na Guerra Civil Espanhola. </a>In: Carlos Alberto Sampaio Barbosa. (Org.). As Revoluções Contemporâneas Paradigmáticas. 1ed.Maringá: Editora UEM, 2016, v. , p. 145-168. </p> 
+                        <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            O porteiro da noite: a erotização do nazismo. </a>In: Cesar Augusto Barcellos Guazzelli, Rafael Hansen Quinsani. (Org.). Clio e Eros no escurinho do cinema: Ménage à trois entre história, cinema e sexualidade. 1ed.São José dos Pinhais - PR: Estronho,
+                        2016, v. 1, p. 273-306. </p> 
+                        <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            Representar a história através de imagens: entre a reconstituição e a analogia. </a>In: Alberto Gawryszewski (Org.). Imagem em debate. Londrina: Eduel, 2011, v. , p. 39-58. </p> 
+                        <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            1968: O Ano da Derrubada do Ensino Pago no Paraná. </a>In: João Roberto Martins Filho. (Org.). 1968: Faz 30 anos.. Campinas: Mercado de Letras, 1998, v. , p. 95-128. </p> 
+                        <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            O movimento estudantil de 1968 e a nostalgia do romantismo revolucionário. </a>In: Luís Antonio Groppo; Michel Zaidan Filho; Otávio Luiz Machado. (Org.). Juventude e Movimento Estudantil: Ontem e Hoje. 1ed.Recife: Editora da UFPE, 2008, v. 1, p. 48-66. </p> 
+                        <p class="spaced-p"> <strong>HAGEMEYER, R. R.</strong> <a> 
+                            Imprensa e democracia: história e perspectivas. </a>In: Tomás Antônio Barreiros; Alexandre Castro; Marcelo Lima. (Org.). Jornalismo: reflexões, experiências, ensino. 1ed.Curitiba: Pós-Escrito, 2006, v. , p. 181-207. </p> 
+                        <!-- Prof. Rogério Rosa Rodrigues -->                         
+                        <h3 class="sub_header"><a href="http://lattes.cnpq.br/1738939950525949">Rogério Rosa Rodrigues</a></h3> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            Manuais Didáticos. </a>In: Rogério Rosa Rodrigues. (Org.). Possibilidades de Pesquisa em História. 1ed.São Paulo: Contexto, 2017, v. 1, p. 55-82. ​ </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            João Ribeiro e Heinrich Handelmann: diálogos subterrâneos. </a>In: Júlio Bentivoglio; Bruno César Nascimento. (Org.). Escrever história: historiadores e historiografia nos séculos XIX e XX. 1ed.: , 2017, v. 1, p. 165-188. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            Nas águas do esquecimento. O movimento do Contestado e o dever de memória. </a>In: Priori, Angelo; Gruner, Clóvis Mendes. (Org.). Contestado: 100 anos de uma guerra sem fim. 1ed.Curitiba: Editora ANPUH/PR, 2016, v. 1, p. 29-53. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            Entre sabres e ressentimentos: política, guerra e literatura na Primeira República. </a>In: Fernando da Silva Rodrigues; Francisco Ferraz; Surama Conde de Sá Pinto. (Org.). História militar: novos caminhos e novas abordagens. 1ed.Jundiaí: Paco Editorial, 2015, v. 2, p. 191-211. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            Arquivos da ordem: o Contestado e a fotografia de guerra. </a>In: Delmir José Valentini; Rogério Rosa Rodrigues. (Org.). Contestado: fronteiras, colonização e conflitos (1912-1916). 1ed.Chapecó/SC: Letra&Vida, 2015, v. 1, p. 375-387. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.; SOARES, J.; GALLY, C.</strong> <a> 
+                            Notas sobre uma introdução: João Ribeiro e a escrita da história do Brasil. Nos desvão da História. João Ribeiro. </a>1ed.Jundiaí/SP: Paco Editorial, 2015, v. 1, p. 41-57. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            Nos anais eternos da história. João Ribeiro e a historiografia nacional. Nos desvão da História. João Ribeiro. </a>1ed.Jundiaí/SP: Paco Editorial, 2015, v. 1, p. 215-256. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            Filho ingrato: Rui Barbosa e a campanha civilista na Bahia. </a>In: Dilton Oliveira de Araújo; Maria José Rapassi Mascarenhas. (Org.). Sociedade e relações de poder na Bahia: séculos XVII-XX. 1ed.Salvador: EDUFBA, 2014, v. 1, p. 233-256. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R. WEHLING, A.</strong> <a> 
+                            A Guerra do Contestado e a História Militar Brasileira. </a>In: Arno Wehling. (Org.). 100 anos do Contestado: memória, história e patrimônio. 1ed.Florianópolis: MPSC, 2013, v. 1, p. 325-349. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            As trincheiras das palavras: os historiadores de farda e as narrativas históricas sobre o Contestado. </a>In: Delmir José Valentini; Marcia Janete Espig; Paulo Pinheiro Machado. (Org.). Nem fanáticos, nem jagunços: reflexões sobre o Contestado (1912-1916). 1ed.Pelotas/RS: Editora da Universidade Federal
+                        de Pelotas, 2012, v. 1, p. 237-261. </p> 
+                        <p class="spaced-p"> <strong>RODRIGUES, R. R.</strong> <a> 
+                            Das ordens à disciplina: a relação do Exército brasileiro com as vilas na região do Contestado. </a>In: Paulo Pinheiro Machado; Márcia Janete Espig. (Org.). A Guerra Santa Revisitada: novos estudos sobre o movimento do Contestado. 1ªed.Florianópolis: UFSC, 2008, v. 1, p. 13-31. </p> 
+                    </div>                     
+                </div>                 
+            </div>             
+        </div>         
+    </body>     
 </html>
