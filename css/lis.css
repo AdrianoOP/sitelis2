@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel:400,700');
 @import url('https://fonts.googleapis.com/css?family=Enriqueta:400,700');
 
-/* special for secondary-page */
+html {
+    padding-bottom: 3em;
+}
 
+/* special for secondary-page */
 .secondary-container {
     padding-right: 100px;
     padding-left: 100px;
+}
+
+.secondary-container a,
+.general-content a:hover {
+    color: black;
+    font-weight: bold;
 }
 
 .secondary-container .row:nth-child(2) {
@@ -52,9 +61,7 @@
     text-align: center;
 }
 
-
 /* special for main-page */
-
 .main-body {
     background-color: rgb(26, 6, 3);
 }
@@ -118,4 +125,22 @@
 
 .right-footer>p {
     margin-bottom: 0;
+}
+
+.common-header {
+    margin-bottom: 1em;
+}
+
+div p.spaced-p {
+    margin-bottom: 1em;
+}
+
+.quem-somos-content a,
+.quem-somos-content a:hover {
+    font-weight: normal;
+}
+
+.quem-somos-content h4 {
+    font-weight: bold;
+    margin-top: 1em;
 }
